@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jacobhell/PhpstormProjects/webserver/http_server'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _getRouting, symObjAddr: 0x0, symBinAddr: 0x100003A34, symSize: 0x94 }
+  - { offsetInCU: 0x84, offset: 0x84, size: 0x8, addend: 0x0, symName: _getRouting, symObjAddr: 0x0, symBinAddr: 0x100003A34, symSize: 0x94 }
+  - { offsetInCU: 0xC8, offset: 0xC8, size: 0x8, addend: 0x0, symName: _serveFile, symObjAddr: 0x94, symBinAddr: 0x100003AC8, symSize: 0xE0 }
+  - { offsetInCU: 0x124, offset: 0x124, size: 0x8, addend: 0x0, symName: _handleClient, symObjAddr: 0x174, symBinAddr: 0x100003BA8, symSize: 0x10C }
+  - { offsetInCU: 0x194, offset: 0x194, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x280, symBinAddr: 0x100003CB4, symSize: 0x164 }
+...
